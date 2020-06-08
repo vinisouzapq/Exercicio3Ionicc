@@ -1,9 +1,9 @@
-export interface Peassoas {
+export interface Pessoas {
     id: number;
-    first_name: String;
-    last_name: String;
-    email: String;
-    gender: String;
-    latitude: String;
-    longitude: String;
+    first_name: string;
+    last_name: string;
+    email: string;
+    gender: string;
+    latitude: number;
+    longitude: number;
 }
