@@ -1045,9 +1045,9 @@ export class PessoaService {
 
         let a = Math.sin(respLat / 2) * Math.sin(respLat / 2) + Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) * Math.sin(respLong / 2) * Math.sin(respLong / 2)
         let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-        let d = response * c
+        let z = response * c
 
-        return d.toFixed(2);
+        return z.toFixed(2);
     }
 
 }
